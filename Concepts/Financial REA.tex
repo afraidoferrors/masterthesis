@@ -1,0 +1,123 @@
+% !TeX spellcheck = en_GB
+\documentclass[10pt,paper=a4,parskip]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+%\usepackage{draftwatermark}https://codeyarns.com/2010/05/05/how-to-add-draft-watermark-in-latex/
+\usepackage{graphicx}
+\usepackage[hyphens]{url}
+\author{Martin Weik}
+\title{DRAFT: Proposal for Financial REA}
+\newif\ifforme
+\formetrue
+\formefalse
+\newcommand{\note}[1]{\unskip\ignorespaces\ifforme\textbf{#1}\else{}\fi}
+
+\begin{document}
+
+\maketitle
+\begin{abstract}
+It is not possible to express some core concepts of Financial Accounting like liabilities or equity with REA directly.
+In this paper an extension called ``Financial REA'' is proposed to model these concepts directly.
+A transformation to ``Original REA'' can be done afterwards.
+\end{abstract}
+
+\section{Motivation}
+\subsection{Resources: Initial definition}
+This is REAs initial definition of resources in \cite[p. 562]{mccarthy1982rea}:
+\begin{quotation}
+Economic resources are defined by Ijiri (1975, pp. 51-2) to be objects that (l) are scarce and have utility and (2) are under the control of an enterprise. In practice, the definition of this entity set can be considered equivalent to that given the term "asset' by the FASB 1979, pp. 51-7) with one exception: economic resources in the schema do not automatically include claims such as accounts-receivable.
+\end{quotation}
+
+This definition describes only elements of the asset side of a balance sheet and excludes all kinds of claims. Claims will be introduced later in the same paper and liabilities are later covered by the introduction of commitments \cite{mccarthy2006reapolicy}.
+\subsection{Introduction of Financial REA}
+\note{Problem 1}
+Nevertheless in financial accounting it's common to consider them as resources too, especially claims as they are tradable and equity as this is a scarce good in terms of leveraging investments.
+\note{ Need literatur Basel II or Solvency II.}
+Therefore it is naturally to extend the ``initial REA'' by new resource types and to call this extension ``Financial REA''. It allows intuitive modelling of all kind of financial instruments and can then be transformed to commitments with underlying resources.
+
+\note{Problem 2}
+REA aims at modelling a holistic view on the company and contracts and their underlying nature in particular.
+A loan is usually modelled as Contract with present and future payments for coupons and the face value at the end of maturity.
+These are items that are represented in financial accounting as liabilities with attached duration now and future payments as the expense happens.
+Interests payment are shown off-balance in attached notes.
+
+\subsection{Resources: Redefinition}
+
+The proposed resulting definition of a resource in Financial REA is:
+A ``scarce good that has utility and can be traded'' on the asset side and ``obligations to third parties that can be traded by them''.
+
+\section{Type hierarchies in Financial REA}
+
+For correct handling of Financial REA it is useful having categories where every resource, event and agent can be classified.
+A concept for this classification already exists in the ``Open-edi business transaction ontology (OeBTO)'' \cite[Section 5.4]{ISOIEC1594442007}.
+
+
+In the subsequent sections type hierarchies for the elements of REA are presented.
+Technically these type hierarchies could be included into the REA model or could be introduced in a profile and then attached as stereotypes.
+
+\subsection{Resource Types}
+
+A proposed type hierarchy for Resources is shown in figure \ref{fig:financial-rea-resources}. The financial point of view starts in the subtree ``Monetary Resource'' that is divided into two parts: 
+
+\begin{itemize}
+\item \textbf{Base Resource} contains all resources covered by the initial REA paper. It is treated as a usual resource.
+\item \textbf{Derivate Resource} covers everything else from claims \& liabilities and financial contracts like loans to Equity. Every element in this group is backed by another Monetary Resource.
+\end{itemize}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{"Financial REA Resources"}
+\caption{Types of Resources in Financial REA.}
+\label{fig:financial-rea-resources}
+\end{figure}
+
+
+
+
+\subsection{Agent Types}
+
+Financial accounting always acts from the company's point of view whereas REA targets to model a transaction on a neutral base.
+To distinguish between these two different kinds of agents, the concepts ``Internal Agent'' and ``External Agent'' are introduced in figure \ref{fig:financial-rea-agents}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{"Financial REA Agents"}
+\caption{Types of Agents in Financial REA.}
+\label{fig:financial-rea-agents}
+\end{figure}
+
+\subsection{Event and Commitment Types}
+
+One of the main concepts of ``Financial REA'' is to model everything that is on a balance sheet as ``Monetary Resource''.
+Although this makes it possible to cope with a lot of cases there are still financial commitments off the balance sheet, namely leases and interest payments.
+As the expense is reported only when the payment is happening, it is natural to model them as commitments and their corresponding events as shown in Figure \ref{fig:financial-rea-eventscommitments}.
+
+
+One special case will be the implementation of IFRS 16, as the leased property has to be shown as ``Rights of use asset'' with a corresponding liability  on the balance sheet.
+As this more a question of mapping than a tradable resource on the asset side and not an obligation that can be traded by third parties it seems a good habit to still model lease contracts following their nature as commitments for future resource-flows and map the underlying cash flows in the balance sheet at runtime.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{"Financial REA EventsCommitments"}
+\caption{Types of Commitments in Financial REA.}
+\label{fig:financial-rea-eventscommitments}
+\end{figure}
+
+
+Claims as mentioned in the original paper are left out completely: They can be replaced by commitments entirely and only lead to disturbances.
+
+\section{Transformation of Financial REA}
+
+When the type hierarchies of Financial REA are viewed in terms of compatibility to the initial description, they differ in how to cope with future payments.
+In Financial REA claims, obligations and equity are tradable whereas the original thinking would say that the contract that contains commitments for payments can be traded.
+
+It is likely that a ``Derivate Resource'' can be presented by the combination of a Commitment with an underlying ``Base Resource'' or another ``Derivative Resource'' in case of securities.
+The investigation of this transformation will be part of the authors diploma thesis.
+
+\bibliographystyle{alpha}
+\bibliography{../References/References}
+
+\end{document}
