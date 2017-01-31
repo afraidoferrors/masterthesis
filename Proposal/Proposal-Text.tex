@@ -1,6 +1,6 @@
 % !TeX spellcheck = en_GB
 
-%this is needed to leave out the top level numbering by chapters in this proposal
+%this is needed to leave out the top level numbering by chapters for figures in this proposal
 \renewcommand{\thefigure}{\arabic{figure}}
 %this controls the width of long captions
 \captionsetup{width=0.8\textwidth}
@@ -8,7 +8,6 @@
 
 
 %\todo{Created / Printed: \today}
-
 \section*{Problem definition}
 
 \subsection*{Drawbacks of traditional Information Systems}
@@ -97,7 +96,9 @@ Although McCarthy proposed in his initial paper \cite{mccarthy1982rea} the REA o
 He stated that all physical and intangible assets can be represented by resources and all kind of receivables by claims.
 Equity is identified as ``imbalance'' and it is proposed to model it as a ``stock information object''.
 Liabilities are not mentioned explicitly and it's unclear how to cope with them.
-Equity and liabilities are future outflows of cash or cash-equivalences in traditional accounting and as resources can not emerge spontaneous it's important to model it in the moment the obligation emerges and not when it is resolved.
+Equity and liabilities are future outflows of cash or cash-equivalences in traditional accounting and core components for analysing a company's financial situation.
+They are especially in the banking sector treated as resources themselves that can be traded or leverage investments.
+%As resources can not emerge spontaneous it's important to model them in the moment the obligation emerges and not when it is resolved.
 McCarthy proposes a mapping between events and income and expenses as well but it's questionable if this definition is sufficient in view of the simultaneous changes in equity.
 
 \subsection*{Research question}
@@ -105,8 +106,8 @@ McCarthy proposes a mapping between events and income and expenses as well but i
 There is a lot of literature that teaches how to model business cases in REA but there is still a lack of formalization how to restore the point of view for financial accounting.
 %And financial accounting with double entry bookings is the final destination for almost every data that are produced over time either to give condensed performance indicators for management or to create statutory reports.
 REA is good at modelling assets as they are simply resources that belong to a company.
-But there is a need for more investigation how to cope with liabilities and equities in REA and if the mapping for events is complete.
-In REA exist two concepts ``claim'' and ``commitment'' that seem to be redundant and need further investigation.
+But as liabilities and equity are very important concepts for financial accounting and are somehow treated as resources, there is a need for more investigation how to cope with them in REA and if the mapping for events is complete.
+%In REA exist two concepts ``claim'' and ``commitment'' that seem to be redundant and need further investigation.
 These points lead to the following research question: ``What formalisms have to be defined for financial accounting in REA?''
 
 %McCarthy argues "that the semantic modeling of accounting object systems should not include elements of double-entry bookkeeping such as debits, credits, and accounts. ...these Elements are artifacts associated with journals and ledgers. As such, they are not essential apsects of an accounting system." \cite[p. 559-560]{mccarthy1982rea}
@@ -141,7 +142,7 @@ It will especially focus on:
 
 \begin{itemize}
 	\item Typification: What kind of hierarchies is needed to categorize resources, events and future events in financial accounting
-	\item Liabilties: A guidance how to cope with liabilities - especially equity - in scope of mechanics of REA 
+	\item Liabilities \& Equity: A guidance how to cope with liabilities and especially equity in scope of mechanics of REA 
 	\item Constraints: Which constraints have to be fulfilled to enable extraction of financial accounting from REA models
 	
 \end{itemize}
@@ -167,7 +168,7 @@ At first a thorough definition of all REA related concepts will be made. The mos
 
 A set of typical booking-cases is defined and then a mapping in REA with focus only on financial accounting is done for each case.
 This will start with basic examples that can be easy modelled in REA for purchases, sales and don't include any future events.
-Later more complex situations as delayed payments and provisions will be analysed.
+Later more complex situations as delayed payments, provisions and financial instruments will be analysed.
 At last transactions from and to Equity will be discussed.
 
 \subsection*{ Generalized framework}

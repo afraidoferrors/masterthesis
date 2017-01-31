@@ -1,9 +1,9 @@
 % Copyright (C) 2014-2016 by Thomas Auzinger <thomas@auzinger.name>
 
 \documentclass[
-draft,
+%draft,
 final,
-headings=openany
+%headings=openany
 ]{vutinfth} % Remove option 'final' to obtain debug information.
 
 % Load packages to allow in- and output of non-ASCII characters.
@@ -30,7 +30,7 @@ headings=openany
 % Define convenience functions to use the author name and the thesis title in the PDF document properties.
 \newcommand{\authorname}{Martin Weik} % The author name without titles.
 \newcommand{\thesistitle}{Financial accounting with REA} % The title of the thesis. The English version should be used, if it exists.
-\newcommand{\thesissubtitle}{A framework for modeling phenomenas of financial accounting with Ressources, Events and Agents}
+\newcommand{\thesissubtitle}{A framework for modeling phenomenas of financial accounting with resources, events and agents}
 
 % Set PDF document properties
 \hypersetup{
@@ -72,7 +72,7 @@ headings=openany
 % Required data.
 \setaddress{Wurmbstraße 44/5 \\ 1120 Wien}
 \setregnumber{0026006}
-\setdate{22}{12}{2016} % Set date with 3 arguments: {day}{month}{year}.
+\setdate{03}{01}{2017} % Set date with 3 arguments: {day}{month}{year}.
 \settitle{\thesistitle}{\thesistitle} % Sets English and German version of the title (both can be English or German).
 \setsubtitle{\thesissubtitle}{\thesissubtitle} % Sets English and German version of the subtitle (both can be English or German).
 
@@ -105,7 +105,7 @@ headings=openany
 
 
 \begin{document}
-%\frontmatter % Switches to roman numbering.
+\frontmatter % Switches to roman numbering.
 % The structure of the thesis has to conform to
 %  http://www.informatik.tuwien.ac.at/dekanat
 
@@ -142,7 +142,7 @@ naustrian=]{by}
 %%%% END ---- THIS IS ONLY FOR THE PROPOSAL!!!
 
 % Switch to arabic numbering and start the enumeration of chapters in the table of content.
-%\mainmatter
+\mainmatter
 
 \addtitlepage{english} % English title page.
 
