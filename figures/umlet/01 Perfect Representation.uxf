@@ -1,0 +1,72 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>280</y><w>170</w><h>140</h></coordinates><panel_attributes>// Class Element
+
+EntityDAO
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+
+_umletcode=
+fg='black'
+bg='#222222'
+drawArc(5,5,26,8,0,180,true) //Parameters (x, y, width, height, start, extent, open)
+bg='bg'
+drawArc(5,5,26,8,180,180,true) //Parameters (x, y, width, height, start, extent, open)
+fg='#929292'
+bg='#222222'
+drawRectangle(5,9,26,15) //Parameters (x, y, width, height);
+fg='black';
+drawLine(5,9,5,24) //Parameters (x1, y1, x2, y2) 
+drawLine(31,9,31,24) //Parameters (x1, y1, x2, y2) 
+bg='bg'
+drawArc(5,10,26,8,180,180,true) //Parameters (x, y, width, height, start, extent, open)
+drawArc(5,15,26,8,180,180,true) //Parameters (x, y, width, height, start, extent, open)
+bg='#222222'
+drawArc(5,20,26,8,180,180,true) //Parameters (x, y, width, height, start, extent, open)
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>150</x><y>470</y><w>100</w><h>80</h></coordinates><panel_attributes>customelement=
+// Text Elemnt
+// DB Symbol
+drawArc(0,0,width,height*2/5,0,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)
+drawArc(0,0,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
+drawRectangle(0,(height+0.5)/5,width,(height)*3/5-1) fg=#929292 bg=#222222 //Parameters (x, y, width, height)
+drawLine(0,height/5,0,height*4/5)fg=black //Parameters (x1, y1, x2, y2) 
+drawLine(width,height/5,width,height*4/5)fg=black //Parameters (x1, y1, x2, y2) 
+drawArc(0,height*1/5,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
+drawArc(0,height*2/5,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
+drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>170</x><y>860</y><w>80</w><h>80</h></coordinates><panel_attributes>// Entity Element
+	      Entity
+customelement=
+// Entity Symbol
+drawCircle(50, 50, 20)
+drawLine(30, 70, 70, 70)
+	</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>220</x><y>1040</y><w>80</w><h>80</h></coordinates><panel_attributes>// Boundary Element
+	  Boundary
+customelement=
+// Boundary Symbol
+drawCircle(50, 50, 20)
+drawLine(20, 50, 30, 50)
+drawLine(20, 30, 20, 70)
+	</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>190</x><y>670</y><w>210</w><h>120</h></coordinates><panel_attributes>//Text Element
+customelement=
+// Parameters drawText(text, x, y, horizontal alignment)
+// Parameters drawLine(x1, y1, x2, y2) 
+// Helping lines are drawn for better understanding of the Text Positioning
+
+// " can be escaped by \ and \\ is converted to \
+drawText("Example how to draw \"Strings\"", width/2, 18, center) //fg= //Parameters (text, x, y, horizontal alignment)
+
+drawLine(50,40,50,80) fg=red lw=2 
+
+drawText("This",50,40,center)
+drawLine(20, 40, 38, 40) fg=red
+
+drawText("This gy",50,60,left)
+drawLine(75, 60, 100, 60) fg=red
+
+drawText("This",50,80,right)
+drawLine(10, 80, 25, 80) fg=red
+
+drawText("Escaping: \" and \\ and \\\\", width/2, 110, center) fg=blue</panel_attributes><additional_attributes></additional_attributes></element></diagram>

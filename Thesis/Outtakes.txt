@@ -1,0 +1,22 @@
+Chapter 2
+
+% This process is known as the event-based approach to accounting, because it focuses on the specific events or transactions that take place within a business.
+% The goal of financial accounting is to provide accurate and relevant information to stakeholders, such as investors, creditors, and regulators, about the financial performance and position of a business.
+
+% The event-based approach to accounting is based on the principle of double-entry bookkeeping, which involves recording each financial transaction in at least two accounts.
+% For example, when a business sells a product, it records a credit to the revenue account and a debit to the inventory account.
+% This approach allows for the accurate tracking and reporting of a business's financial activities.
+
+% Financial accounting also involves the preparation of financial statements, such as the balance sheet, income statement, and statement of cash flows.
+% These statements provide important information about a business's assets, liabilities, equity, revenues, expenses, and historic and planned cash flows.
+% They are used by stakeholders to evaluate the financial health and performance of a business.
+
+% In summary, financial accounting is an essential part of a business's operations, providing accurate and relevant information about its financial performance and position.
+% The event-based approach to accounting is the foundation of this process, and is essential for the preparation of financial statements and the informed decision-making of stakeholders.
+
+
+He also elaborates about relevance of events (axioms)
+
+
+\section{public obligations}
+VAT<

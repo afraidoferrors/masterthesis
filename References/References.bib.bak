@@ -1,0 +1,259 @@
+% Encoding: UTF-8
+
+@Article{mccarthy1982rea,
+  author  = {McCarthy, William E},
+  journal = {Accounting Review Vol. 57, No. 3 (Jul., 1982)},
+  title   = {The REA accounting model: A generalized framework for accounting systems in a shared data environment},
+  year    = {1982},
+  note    = {[Online; accessed 21-June-2016, \url{http://www.msu.edu/user/mccarth4/McCarthy.pdf}]},
+  pages   = {554--578},
+  groups  = {REA},
+}
+
+@Article{geerts2010designsience,
+  author  = {Geerts, Guido L.},
+  journal = {International Journal of Accounting Information Systems 12 (2011)},
+  title   = {A design science research methodology and its application to accounting information systems research},
+  year    = {2011},
+  note    = {[Online; accessed 13-June-2018, \url{https://doi.org/10.1016/j.accinf.2011.02.004}]},
+  pages   = {142--151},
+}
+
+@article{jaquet2006SemanticsREAEntities,
+author = {Jaquet, Mette},
+journal={Talk: Presented at The 2nd International REA Technology Workshop 2006, Santorini},
+year = {2006},
+month = {07},
+pages = {},
+title = {A Property Driven Approach towards Describing Semantics of REA Entities},
+note={[Online; accessed 10-November-2019, \url{https://www.researchgate.net/publication/228669892_A_Property_Driven_Approach_towards_Describing_Semantics_of_REA_Entities}]}
+}
+
+@Article{schwaiger2015aleandrea,
+  author  = {Walter S.A. Schwaiger},
+  journal = {Springer International Publishing Switzerland 2015 P. Johannesson et al. (Eds.): ER 2015, LNCS 9381, pp. 566–573, 2015. DOI: 10.1007/978-3-319-25264-3\_43},
+  title   = {The REA Accounting Model: Enhancing Understandability and Applicability},
+  year    = {2015},
+  file    = {:C\:/Users/weik/Google Drive/Uni/Master/Diplomarbeit/Quellen/REA/SchwaigerChp_10.1007_978-3-319-25264-3_43_1510.pdf:PDF},
+}
+
+@article{bennet2015EquityDebtREA,
+	title={Defining Equity and Debt using REA Claim Semantics},
+	author={Mike Bennett},
+	journal={Talk: 9th International Workshop on Value Modeling and Business Ontology (VMBO 2015), Tilburg; 02-23-2015 - 02-24-2015; in: "Proceedings of the 9th International Workshop on Value Modeling and Business Ontology (VMBO 2015)", (2015)},
+	year={2015},
+	note={[Online; accessed 13-October-2019, \url{https://vmbo2015.blogs.dsv.su.se/files/2015/02/VMBO2015_submission_6.pdf}]}
+}
+
+@techreport{ISOIEC1594442015,
+ author = {ISO/IEC},
+ Institution = {International Organization for Standardization},
+ address = {Geneva, Switzerland},
+ Title = {Information technology — Business Operational View —
+ Part 4:
+ Business transaction scenarios — Accounting and economic ontology},
+ number = {15944--4:2015},
+ type = {ISO/IEC},
+ year = {2015},
+ note={[Online; accessed 10-June-2018, \url{http://standards.iso.org/ittf/PubliclyAvailableStandards/c067199_ISO_IEC_15944-4_2015.zip}]}
+ }
+
+@Book{hollander2000accounting,
+  author    = {Hollander, Anita},
+  publisher = {Irwin/McGraw-Hill},
+  title     = {Accounting, information technology, and business solutions},
+  year      = {2000},
+  address   = {Boston, MA},
+  isbn      = {978-0256217896},
+  groups    = {FInancial Accounting},
+}
+
+@Book{IFRSessentials,
+  author    = {Christian, Dieter and Lüdenbach, Norbert},
+  publisher = {John Wiley \& Sons, Ltd},
+  title     = {IFRS Essentials},
+  year      = {2015},
+  isbn      = {9781119207917},
+  doi       = {10.1002/9781119207917},
+  groups    = {FInancial Accounting},
+  url       = {https://onlinelibrary.wiley.com/doi/book/10.1002/9781119207917},
+}
+
+@TechReport{IASBFramwork,
+  author      = {IASB},
+  institution = {IFRS Foundation, International Accounting Standards Board},
+  title       = {Conceptual Framework for Financial Reporting},
+  year        = {2010, 2018},
+  address     = {London, England},
+  note        = {[Online (registration needed); accessed 18-November-2019, \url{http://eifrs.ifrs.org/eifrs/bnstandards/en/framework.pdf}]},
+  type        = {accounting},
+  groups      = {FInancial Accounting},
+}
+
+@techreport{IASBIAS01,
+ author = {IASB},
+ Institution = {IFRS Foundation, International Accounting Standards Board},
+ address = {London, England},
+ Title = {IAS 1 - Presentation of Financial Statements},
+ number = {IAS 1},
+ type = {accounting},
+ year = {1997, 2018},
+ note={[Online (registration needed); accessed 18-November-2019, \url{http://eifrs.ifrs.org/eifrs/bnstandards/en/IAS1.pdf}]}
+ }
+
+
+@article{mccarthy2006reapolicy,
+	author = "McCarthy, William E. and Geerts, Guido L.",
+	title = "Policy Level Specification in REA Enterprise Information Systems",
+	year = "2006",
+	journal = "Journal of Information Systems 20(2) · September 2006"
+}
+
+ @book{hruby2006modeldrivendesign,
+ author = {Pavel Hruby and Jesper Kiehn and Christian Vibe Scheller},
+ title = {Model-Driven Design Using Business Patterns},
+ year = {2006},
+ publisher = {Springer-Verlag Berlin Heidelberg 2006}
+
+ }
+ 
+ @book{dunn2005enterpriseinfosys,
+ 	author = {Cheryl L. Dunn and J. Owen Cherrington and Anita S. Hollander},
+ 	title = {Enterprise Information Systems},
+ 	subtitle = {a pattern based approach},
+ 	edition = {third edition - international},
+ 	ISBN = {0-07-240429-9},
+ 	year = {2005},
+ 	publisher = {McGraw-Hill/Irwin}
+ }
+
+@article{dunnREAOverview,
+	author = {Cheryl Dunn and Gregory J. Gerard and Severin V. Gabski},
+	title = {Recource-Events-Agents Design Theory: A Revolutionary Approach to Enterprise System Design},
+	journal = {Communications of the Association for Information Systems},
+	pages = {554 - 595},
+	date = {May 2016},
+	year = {2016},
+	url = {https://aisel.aisnet.org/cgi/viewcontent.cgi?article=3941&context=cais}
+}
+
+
+@misc{mccarthy2004elmo-cookie-monster,
+author = {McCarthy},
+title = {Cookie Monster},
+date = {26-02-2004},
+year = "2004",
+url = {https://msu.edu/user/mccarth4/cookie--elmo--basic%20REA.ppt},
+note = "\url{{https://msu.edu/user/mccarth4/cookie--elmo--basic%20REA.ppt}}, [Accessed 26-August-2016]"
+}
+
+@misc{mccarthy2013speechaboutREAontology,
+author = {McCarthy},
+title = {Presentation about REA Ontology},
+date = {07-11-2013},
+year = "2013",
+url = {http://ontolog.cim3.net/file/work/OntologyBasedStandards/2013-11-07_Ontology-based-Financial-Standards/REA-Ontology_ISO-15944-4--BillMcCarthy_20131107.pdf},
+note = "\url{{http://ontolog.cim3.net/file/work/OntologyBasedStandards/2013-11-07_Ontology-based-Financial-Standards/REA-Ontology_ISO-15944-4--BillMcCarthy_20131107.pdf}}, [Accessed 10-November-2019]"
+}
+ 
+@misc{nittler2012modernizeaccounting,
+author = {Mark Nittler},
+title = {The Time Is Right to Modernize 400-Year-Old Accounting Practices},
+date = {14-08-2012},
+year = "2012",
+url = {http://blogs.workday.com/time-is-right-to-modernize-400-year-old-accounting-practices/},
+note = "\url{{http://blogs.workday.com/time-is-right-to-modernize-400-year-old-accounting-practices/}}, [Accessed 09-September-2016]"
+}
+
+@misc{howlett2007workdayfinancials,
+author = {Dennis Howlett},
+title = {Workday financials: accounting isn't real},
+date = {20-08-2007},
+year = "2007",
+url = {http://www.zdnet.com/article/workday-financials-accounting-isnt-real/},
+note = "\url{{http://www.zdnet.com/article/workday-financials-accounting-isnt-real/}}, [Accessed 09-September-2016]"
+}
+
+@article{wally2015modeldriven,
+  added-at = {2016-09-09T10:24:59.000+0200},
+  author = {Wally, Bernhard and Mazak, Alexandra and Kratzwald, Bernhard and Huemer, Christian},
+  title = {Model-Driven Retail Information System based on REA Business Ontology and Retail-H},
+  biburl = {http://www.bibsonomy.org/bibtex/22ae8bf478bc3d3803e64cb195e92d5c5/entropie},
+  interhash = {587aac01714264f2cbc3e245b1bed432},
+  intrahash = {2ae8bf478bc3d3803e64cb195e92d5c5},
+  journal = {Proceedings of the 17th IEEE Conference on Business Informatics (CBI)", IEEE, (2015), ISBN: 978-1-4673-7340-1},
+  keywords = {rea realist},
+  month = jul,
+  pages = {116 - 124},
+  timestamp = {2016-09-09T10:24:59.000+0200},
+  url = {http://publik.tuwien.ac.at/showentry.php?ID=240407&lang=2},
+  volume = {IEEE, (2015)},
+  year = 2015
+}
+
+@article{wally2015realista,
+	abstract = {REAlist is a prototypical web-based ERP system built on top of a generic REA core system. It is implemented as a multi-tenant aware software-as-a-service. We intend to give a live demo of REAlist and show how various REA concepts are used to model the required ERP artefacts.},
+	added-at = {2016-09-14T08:38:33.000+0200},
+	author = {Wally, Bernhard and Mazak, Alexandra and Kratzwald, Bernhard and Huemer, Christian and Regatschnig, Peter and Mayrhofer, Dieter},
+	title = {REAlist-A Tool Demo},
+	biburl = {http://www.bibsonomy.org/bibtex/2034a5ac046b20062f9550df6bdffa36c/entropie},
+	description = {Publication Entry},
+	interhash = {ab849ca7f7c41f39f260e471818a8090},
+	intrahash = {034a5ac046b20062f9550df6bdffa36c},
+	journal = {Talk: 9th International Workshop on Value Modeling and Business Ontology (VMBO 2015), Tilburg; 02-23-2015 - 02-24-2015; in: "Proceedings of the 9th International Workshop on Value Modeling and Business Ontology (VMBO 2015)", (2015), 7 pages},
+	keywords = {"ERP "Model- "Software-as-a-Service" "Tool Demo" Driven Engineering" Implementation" REA System},
+	timestamp = {2016-09-14T08:38:33.000+0200},
+	year = 2015
+}
+
+@Book{horngren2006introduction,
+	author = {Horngren, Charles},
+	title = {Introduction to financial accounting},
+	publisher = {Prentice Hall},
+	year = {2006},
+	address = {Upper Saddle River, N.J},
+	isbn = {0131968750}
+}
+
+@book{ittelson2009financialstatements,
+	author = {Thomas Ittelson},
+	title = {Financial Statements},
+	publisher = {Career Press},
+	year = {2009},
+	isbn = {9781601630230}
+}
+
+@Book{Ijiri1967,
+  author    = {Yuji Ijiri},
+  publisher = {Prentice Hall},
+  title     = {The Foundations of Accounting Measurement: A Mathematical, Economic and Behavioral Inquiry},
+  year      = {1967},
+  comment   = {Source for fundamental concepts that are often considered as given such as level of aggregation, loss of information in Financial Accounting},
+  groups    = {FInancial Accounting},
+  keywords  = {Ijiri},
+}
+@Book{horngren1984introduction,
+ author = {Horngren, Charles},
+ title = {Introduction to financial accounting},
+ publisher = {Prentice-Hall},
+ year = {1984},
+ address = {Englewood Cliffs, N.J},
+ isbn = {0134836022}
+ }
+
+@Book{Horngren1984,
+  author    = {Charles T. Horngren},
+  publisher = {Prentice-Hall},
+  title     = {Introduction to Financial Accounting},
+  year      = {1984},
+  edition   = {2nd Edition},
+  groups    = {FInancial Accounting},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:REA\;0\;1\;0x990000ff\;\;\;;
+1 StaticGroup:FInancial Accounting\;0\;1\;0x8a8a8aff\;\;\;;
+}

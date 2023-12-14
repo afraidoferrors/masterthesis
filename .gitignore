@@ -1,0 +1,15 @@
+/out/
+/tmp/
+Thesis/Thesis.aux
+Thesis/Thesis.bbl
+Thesis/Thesis.blg
+Thesis/Thesis.code-workspace
+Thesis/Thesis.fdb_latexmk
+Thesis/Thesis.fls
+Thesis/Thesis.log
+Thesis/Thesis.out
+Thesis/Thesis.pdf
+Thesis/Thesis.synctex.gz
+Thesis/Thesis.toc
+*.gslides
+trashbin/
